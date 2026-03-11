@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: GetQuantumDrive.QuantumDrive
+PackageVersion: 0.1.2.0
+InstallerType: wix
+ProductCode: '{B597A367-B58C-4386-99E4-A8540B75A780}'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/GetQuantumDrive/QuantumDrive/releases/download/v0.1.2/QuantumDrive-Setup-x64-0.1.2.msi
+  InstallerSha256: 779C147BAA13CAAE6750724861EF2AB5DD3E4164F44CDE3FA6030E919C43DD61
+ManifestType: installer
+ManifestVersion: 1.12.0
